@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>NSKManager Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/NSKManager" class="dashAnchor"></a>
+    <a title="NSKManager Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (100% documented)</p>
+        <p class="header-right"><a href=""><img src="../img/gh.png"/>View on GitHub</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        NSKManager Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+          <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/NSKApi.html">NSKApi</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NSKBeaconManager.html">NSKBeaconManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NSKLinkedTag.html">NSKLinkedTag</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NSKManager.html">NSKManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NSKTag.html">NSKTag</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+          <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions.html#/c:objc(cs)NSDate">NSDate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+          <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/NSKBeaconManagerDelegate.html">NSKBeaconManagerDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+          <a href="../Structs.html">Structs</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/NSKConstants.html">NSKConstants</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>NSKManager</h1>
+            <p>Nearspeak Manager class.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZvC12NearspeakKit10NSKManager14sharedInstanceS0_"></a>
+                    <a name="//apple_ref/swift/Variable/sharedInstance" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZvC12NearspeakKit10NSKManager14sharedInstanceS0_">sharedInstance</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Get the singelton object of this class.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="k">var</span> <span class="nv">sharedInstance</span><span class="p">:</span> <span class="kt">NSKManager</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC12NearspeakKit10NSKManager10nearbyTagsGSaCS_6NSKTag_"></a>
+                    <a name="//apple_ref/swift/Property/nearbyTags" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC12NearspeakKit10NSKManager10nearbyTagsGSaCS_6NSKTag_">nearbyTags</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Array of all currently nearby Nearspeak tags.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">nearbyTags</span><span class="p">:</span> <span class="p">[</span><span class="kt">NSKTag</span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC12NearspeakKit10NSKManagercFMS0_FT_S0_"></a>
+                    <a name="//apple_ref/swift/Method/init()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC12NearspeakKit10NSKManagercFMS0_FT_S0_">init()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The standard constructor.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">override</span> <span class="nf">init</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+                <div class="task-name-container">
+                  <a name="/NearbyBeacons%20-%20public"></a>
+                  <a name="//apple_ref/swift/Section/NearbyBeacons - public" class="dashAnchor"></a>
+                  <a href="#/NearbyBeacons%20-%20public">
+                    <h3 class="section-name">NearbyBeacons - public</h3>
+                  </a>
+                </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC12NearspeakKit10NSKManager20startBeaconDiscoveryFS0_FSbT_"></a>
+                    <a name="//apple_ref/swift/Method/startBeaconDiscovery(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC12NearspeakKit10NSKManager20startBeaconDiscoveryFS0_FSbT_">startBeaconDiscovery(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Start the Nearspeak beacon discovery.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">startBeaconDiscovery</span><span class="p">(</span><span class="nv">showUnassingedBeacons</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>showUnassingedBeacons</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>True if unassinged Nearspeak beacons should also be shown.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC12NearspeakKit10NSKManager19stopBeaconDiscoveryFS0_FT_T_"></a>
+                    <a name="//apple_ref/swift/Method/stopBeaconDiscovery()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC12NearspeakKit10NSKManager19stopBeaconDiscoveryFS0_FT_T_">stopBeaconDiscovery()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Stop the Nearspeak beacon discovery.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">stopBeaconDiscovery</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC12NearspeakKit10NSKManager13getTagAtIndexFS0_FSiGSqCS_6NSKTag_"></a>
+                    <a name="//apple_ref/swift/Method/getTagAtIndex(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC12NearspeakKit10NSKManager13getTagAtIndexFS0_FSiGSqCS_6NSKTag_">getTagAtIndex(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Get a Nearspeak tag object from the nearby beacons array.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getTagAtIndex</span><span class="p">(</span><span class="nv">index</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">NSKTag</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>index</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The index of the Nearspeak tag object.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC12NearspeakKit10NSKManager21showUnassingedBeaconsFS0_FSbT_"></a>
+                    <a name="//apple_ref/swift/Method/showUnassingedBeacons(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC12NearspeakKit10NSKManager21showUnassingedBeaconsFS0_FSbT_">showUnassingedBeacons(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Show or Hide unassigned Nearspeak tags.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">showUnassingedBeacons</span><span class="p">(</span><span class="nv">show</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>show</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>True if unassinged Nearspeak beacons should als be show.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+                <div class="task-name-container">
+                  <a name="/BeaconManager%20delegate%20methods"></a>
+                  <a name="//apple_ref/swift/Section/BeaconManager delegate methods" class="dashAnchor"></a>
+                  <a href="#/BeaconManager%20delegate%20methods">
+                    <h3 class="section-name">BeaconManager delegate methods</h3>
+                  </a>
+                </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC12NearspeakKit10NSKManager13beaconManagerFS0_FTGSQCS_16NSKBeaconManager_12foundBeaconsGSaCSo8CLBeacon__T_"></a>
+                    <a name="//apple_ref/swift/Method/beaconManager(_:foundBeacons:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC12NearspeakKit10NSKManager13beaconManagerFS0_FTGSQCS_16NSKBeaconManager_12foundBeaconsGSaCSo8CLBeacon__T_">beaconManager(_:foundBeacons:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Delegate method which gets called, when new beacons are found.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">beaconManager</span><span class="p">(</span><span class="nv">manager</span><span class="p">:</span> <span class="kt">NSKBeaconManager</span><span class="o">!</span><span class="p">,</span> <span class="nv">foundBeacons</span><span class="p">:</span> <span class="p">[</span><span class="kt">CLBeacon</span><span class="p">])</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2015 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2015-06-15)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.2.1</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
